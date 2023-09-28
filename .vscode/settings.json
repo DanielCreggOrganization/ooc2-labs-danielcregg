@@ -1,13 +1,14 @@
 {
+    "workbench.colorTheme": "Default Dark+",
+    "workbench.tree.indent": 15,
+    "workbench.tree.renderIndentGuides": "always",
+    "workbench.colorCustomizations": {
+        "tree.indentGuidesStroke": "#05ef3c"
+    },
     "java.dependency.packagePresentation": "flat",
     "editor.inlayHints.enabled": "off",
     "files.exclude": {
         "**/.devcontainer": true,
         "**/.vscode": true
-    },
-    "workbench.tree.indent": 15,
-    "workbench.tree.renderIndentGuides": "always",
-    "workbench.colorCustomizations": {
-        "tree.indentGuidesStroke": "#05ef3c"
     }
 }
