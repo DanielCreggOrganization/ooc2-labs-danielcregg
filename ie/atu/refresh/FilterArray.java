@@ -8,8 +8,7 @@ public class FilterArray {
         // Create integer array which holds number 1 to 100
         int[] numbers = new int[100];
 
-        // Use a for loop to iterate through the array and populate it with numbers 1 to
-        // 100
+        // Iterate over the array and populate it with numbers 1 to 100
         for (int i = 0; i < numbers.length; i++) {
             numbers[i] = i + 1;
         } // End of for loop
@@ -23,7 +22,7 @@ public class FilterArray {
                 System.out.println(numbers[i]);
             } // End of if statement
         } // End of for loop
-        // Print the sum of all even numbers in the array
+          // Print the sum of all even numbers in the array
         System.out.println("The sum of all even numbers in the array is: " + sum);
     } // End of main
 } // End of class
