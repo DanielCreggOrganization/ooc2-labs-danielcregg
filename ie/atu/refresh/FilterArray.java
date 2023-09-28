@@ -7,7 +7,10 @@ public class FilterArray {
 
         // Use a for loop to iterate through the array and print out each element
         for (int i = 0; i < numbers.length; i++) {
-            System.out.println(numbers[i]);
+            // Print all even numbers in the array
+            if (numbers[i] % 2 == 0) {
+                System.out.println(numbers[i]);
+            }
         }
     }
 }
