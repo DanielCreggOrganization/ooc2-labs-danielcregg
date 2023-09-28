@@ -1,10 +1,12 @@
 {
-    "workbench.colorTheme": "Default Dark+",
+    //"workbench.colorTheme": "Default Dark+",
+    "workbench.colorTheme": "Default High Contrast",
     "workbench.tree.indent": 15,
     "workbench.tree.renderIndentGuides": "always",
     "workbench.colorCustomizations": {
         "tree.indentGuidesStroke": "#05ef3c"
     },
+    "editor.fontSize": 18,
     "java.dependency.packagePresentation": "flat",
     "editor.inlayHints.enabled": "off",
     "files.exclude": {
