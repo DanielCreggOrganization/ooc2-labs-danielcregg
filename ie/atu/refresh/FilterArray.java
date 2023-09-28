@@ -2,8 +2,15 @@ package ie.atu.refresh;
 
 public class FilterArray {
     public static void main(String[] args) {
-        // Create integer array which holds number 1 to 10
-        int[] numbers = { 1, 2, 3, 4, 5, 6, 7, 8, 9, 10 };
+
+        // Create integer array which holds number 1 to 100
+        int[] numbers = new int[100];
+
+        // Use a for loop to iterate through the array and populate it with numbers 1 to
+        // 100
+        for (int i = 0; i < numbers.length; i++) {
+            numbers[i] = i + 1;
+        }
 
         // Use a for loop to iterate through the array and print out each element
         for (int i = 0; i < numbers.length; i++) {
